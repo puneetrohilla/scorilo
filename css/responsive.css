@@ -1,0 +1,157 @@
+.bgr {
+    display: none;
+  }
+  
+  @media screen and (max-width:968px) {
+    .container{
+      width: 100vw;
+    }
+    .sec3container{
+      width: 100vw;
+    }
+    .sec2h{
+      width: 100vw;
+    }
+    .sec4desc{
+      width: 75%;
+    }
+    .sec4container{
+      width: 100vw;
+    }
+    .sec5container
+    {
+      width: 100%;
+    }
+    .sec6container
+    {
+      width: 100%;
+    }
+    .sec7container{
+      flex-direction: column;
+    }
+    .sec7desc{
+      margin-top: 1.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .sec7h h1{
+      font-size: 1.5rem;
+    }
+    .sec2h{
+      width: 100%;
+    }
+    .sec3card{
+      width: 75%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .sec3container{
+      width: 100vw;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .sec1card{
+   width: 70%;
+   min-height: 25vh;
+    }
+    .sec5container
+    {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .sec5card{
+      width: 75%;
+    }
+    .container{
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    nav {
+      flex-direction: column;
+      height: 6vh;
+    }
+    .navlinks {
+      flex-direction: column;
+    }
+    .navlinks li {
+      margin-left: 0px;
+      margin-bottom: 7px;
+    }
+    .navlinks li a:hover {
+      color: red;
+    }
+    .bgr {
+      display: block;
+      position: absolute;
+      right: 35px;
+      top: 5px;
+    }
+    .bgr a {
+      text-decoration: none;
+      color: black;
+      font-size: 25px;
+    }
+    .h-class-resp {
+      height: 30vh;
+      background-color: white;
+      transition: all 1s ease-in-out;
+    }
+    .o-class-resp {
+      opacity: 0;
+    }
+    .header h1{
+      font-size: 3rem;
+  
+    }
+    .header h2{
+      font-size: 2rem;
+    }
+  .sec7desc{
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+  }
+  }
+  @media screen and (max-width:568px)
+  {
+    .sec7h h1{
+      font-size: 1.2rem;
+    }
+    .header h1{
+      font-size: 2rem;
+    }
+    .header h2{
+      font-size: 1.5rem;
+    }
+    .sec4desc{
+      width: 100%;
+      
+    }
+  }
+  .sec6desc{
+    font-size: 1.1rem;
+  }
+  @media screen and (max-width:373px)
+  {
+    .header h1{
+      font-size: 1.5rem;
+    }
+    .header h2{
+      font-size: 1rem;
+    }
+    .sec6h h1{
+        font-size: 1.2rem;
+    }
+    .sec7desc{
+        font-size: 1rem;
+    }
+    .sec7h h1{
+        font-size: 1rem;
+    }
+  }
+  
